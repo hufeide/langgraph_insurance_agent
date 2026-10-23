@@ -17,7 +17,7 @@ llm = ["langchain-openai>=0.2.0"]
 dev = ["pytest>=8.0"]
 
 [tool.setuptools.packages.find]
-include = ["insurance_agent*"]
+include = ["insurance_agent*", "insurance_mid*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
