@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: langgraph-insurance-agent
+Version: 0.1.0
+Summary: Runnable LangGraph insurance claims workflow demo
+Requires-Python: >=3.10
+Requires-Dist: langgraph>=0.2.0
+Requires-Dist: pydantic>=2.0
+Provides-Extra: llm
+Requires-Dist: langchain-openai>=0.2.0; extra == "llm"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
